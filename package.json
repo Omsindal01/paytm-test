@@ -4,6 +4,7 @@
   "version": "1.5.0",
   "author": "Soumya Vats",
   "main": "PaytmChecksum.js",
+  "type": "module",
   "keywords": [
     "Paytm",
     "Checksum",
@@ -17,5 +18,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/paytm/Paytm_Node_Checksum"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.9"
   }
 }
